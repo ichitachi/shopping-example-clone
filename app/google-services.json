@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "517548911467",
+    "project_id": "ecomerce-cc521",
+    "storage_bucket": "ecomerce-cc521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517548911467:android:ef139d081c78a769873a2e",
+        "android_client_info": {
+          "package_name": "com.teikaiz.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517548911467-080mruh8pf5dgnrdekb1oft1m5kdf6hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teikaiz.quiz",
+            "certificate_hash": "b70e3ab8f412ed52f2f90dec47823f7a0e23cbc5"
+          }
+        },
+        {
+          "client_id": "517548911467-qegf4aepr7rs4v3d7n0qlo62qlfs1a1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiQ_TZylxVcyLLehbnmPWACW4hO8ncovk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517548911467-qegf4aepr7rs4v3d7n0qlo62qlfs1a1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

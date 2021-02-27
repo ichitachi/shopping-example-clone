@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/profile_header">
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/full_name"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="password"
+            app:title="@string/change_password"
+            android:summary="@string/password"
+            android:dialogLayout="@layout/modal_password"
+            android:dialogTitle="Enter your password"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/sync_header">
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
